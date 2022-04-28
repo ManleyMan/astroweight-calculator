@@ -13,6 +13,7 @@ var planets = [
     ['Sun',  27.9] 
 ];
 
+planets.reverse();
 
   planets.forEach(myFunction);
   function myFunction(item, index){
@@ -34,7 +35,7 @@ var name = planets[planetName][0];
 var gravity = planets[planetName][1];
 
 var newWeight = gravity * weight;
-let result = newWeight;
+let result = newWeight.toFixed();
 document.getElementById("output").innerHTML = "If you were on " + name + ", you would weigh " + result + "lbs!";
 
 } 

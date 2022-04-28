@@ -1,15 +1,50 @@
 
-
 body{
+     text-align:center
+}
+#background{
+    background-image: url("MAIN-BUZZ_2000x.jpg");
+    background-size: cover;
+    height:fit-content;
+    width: auto;
+    background-repeat: no-repeat;
+    padding: 390px;
    
-    background-color:#106ec6;
-    color:#dae53e;
-    text-align:center;
+    }
+    #content{
+        position: sticky;
     }
 
+    button{
+        background-color: #931807;
+        border: none;
+        color: #ffdb1a;
+        text-align: center;
+        border-radius: 12px;
+        padding: 14px 40px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+input{
+    color: gold;
+    background-color: black;
+    border-radius: 10px;
+    width: 100%;
+}
+#title{
+    color: gold;
+}
 
+p{
+    color: gold;
+    font-family: 'Bungee', cursive;}
 
 #planets{
-    color:black
+    color: rgb(255 153 0);
+    margin: 10px;
+    width: 50%;
+    font-style: oblique;
+    background-color: #092a3a;
 }
 

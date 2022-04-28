@@ -4,19 +4,30 @@
     <meta charset="utf-8">
     <title>Astro Weight Calculator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <p> Im An AstroWeight Calculator! </p>
-  <input id="user-weight" type="text" placeholder="Weight (lbs)" /> 
-<!--creates a drop down menu-->
-  <select id="planets"></select>
-  <p id="output"></p>
-  <!--button with click event-->
-  <button onClick=handleClickEvent() id="calculate-button">Calculate</button>
+  <body id = "background">
+    <div id="content">
+      <div id="title" >
+        <p> Im An AstroWeight Calculator! </p>
+      </div>
+      <div id="weight">
+        <input id="user-weight" type="text" placeholder="Weight (lbs)" /> 
+      </div>
+  <!--creates a drop down menu-->
+      <div id="dropdown">
+        <select id="planets"></select>
+      </div>
+      <p id="output"></p>
+    <!--button with click event-->
+      <button onClick=handleClickEvent() id="calculate-button">Calculate</button>
 
-  
     
-    <script src="main.js" charset="utf-8"></script>
+      
+      <script src="main.js" charset="utf-8"></script>
+    </div>
   </body>
 </html>
  
