@@ -19,41 +19,47 @@ body{
     }
 
     button{
-        background-color: #931807;
+        background-color: #7c67a3;
         border: none;
-        color: #ffdb1a;
+        color: rgb(255 153 0);
         text-align: center;
         border-radius: 12px;
         margin: 10px;
+        font-family: 'Bungee', cursive;
         padding: 14px 40px;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
     }
 input{
-    color: rgb(255, 219, 26);
+    color: gold;
     background-color: #7c67a3;
     border-radius: 10px;
     border-radius: 10px;
     width: 50%;
+    font-family: 'Bungee', cursive;
     font-size: xx-large;
     text-align: center;
 }
 #title{
-    color: gold;
+    color: rgb(255 153 0);
+    font-family: 'Bungee', cursive;
 }
 
-p{
-    color: gold;
+#output{
+    background-color: #7c67a3;
+    color: red;
+    text-shadow: rgb(30 32 33) -2px 1px;
+
     font-family: 'Bungee', cursive;}
 
 #planets{
     color: rgb(255 153 0);
     text-align: center;
-    font-size: xx-large;
+    font-size: large;
     margin: 10px;
     width: 50%;
-    font-style: oblique;
+    font-family: 'Bungee', cursive;
     background-color: #092a3a;
 }
 
